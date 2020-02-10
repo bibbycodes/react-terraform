@@ -3,5 +3,5 @@ variable "root_domain_name" {
 }
 
 variable "application_domain" {
-  default = "frontend/${var.root_domain_name}"
+  default = "client/${var.root_domain_name}"
 }
